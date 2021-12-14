@@ -1,3 +1,8 @@
+// variable a is used before declaring it
+a = 5;
+console.log(a);
+var a; // Output 5
+
 // using message before declaring
 console.log(message);   // undefined
 var message;
@@ -5,11 +10,6 @@ var message;
 // using message before declaring
 var message;
 console.log(message); // undefined
-
-// variable a is used before declaring it
-a = 5;
-console.log(a);
-var a; // Output 5
 
 // variable a is declared as 5 
 var a;
